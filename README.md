@@ -24,4 +24,8 @@ This project implements a directed graph to represent precedence relationships o
   Iterates over all vertices and uses `is_cyclic` to check if any cycle exists in the graph. Returns `True` if the graph is cyclic, else `False`.
 
 ## Usage
+1. Define the number of vertices (nodes) in the graph.
+2. Use `add_edge(u, v)` to add directed edges from node `u` to node `v`.
+3. Run `has_cycle()` to check for any cycles in the graph.
+4. The example script demonstrates usage and prints whether a cycle is detected.
 
